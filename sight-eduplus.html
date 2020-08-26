@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sight-eduplus</title>
+
+    </head>
+    <body>
+        <style>
+            div.transbox {
+            background-color: #ffffff;
+            padding: 5px;
+            opacity: 0.8;
+            filter: alpha(opacity=60);
+            border-bottom: 2px solid blueviolet;
+            height: 55px;
+          
+        
+            }
+           
+            
+            body{
+            background: url("laptopimage.jpeg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            padding: 0px;
+            margin:0px;
+            
+            }
+
+            .city {
+            float: left;
+            margin: 5px;
+            padding: 1px;
+            width: 40px;
+            height: 30px;
+            border: transparent
+            }
+
+            a {
+                text-decoration: none;
+                color: blueviolet;
+            }
+
+                .relative {
+                  position: relative;
+                  left: 860px;
+            }
+            div.formbox {
+            background-color: #ffffff;
+            padding: 7px;
+            opacity: 0.8;
+            filter: alpha(opacity=60);
+            border-top: 2px solid blueviolet;
+            height: 600px;
+            margin:60px;
+            width: 580px;
+            }
+
+            input[type=text], select {
+                width: 80%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 2px solid blueviolet;
+                border-radius: 6px;
+                box-sizing: border-box;
+                }
+
+                input[type=submit] {
+                width: 20%;
+                background-color:blueviolet;
+                color: white;
+                padding: 10px 15px;
+                margin: 8px 0;
+                border: 1px solid blueviolet;
+                border-radius: 6px;
+                cursor: pointer;
+                }
+                input[type=password] {
+                width: 80%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 2px solid blueviolet;
+                border-radius: 6px;
+                box-sizing: border-box;
+                }
+
+                input[type=submit]:hover {
+                background-color:hsl(0, 0%, 95%);
+                color: blueviolet;
+              
+                }
+
+                .box {
+                border-radius: 5px;
+                margin-left: 30px;
+                padding: 5px;
+
+                
+}
+        </style>
+    <body>
+        
+  <div class="transbox">
+      <div class="city">
+        <img src="sight-eduplus.png" alt="sight-innovation icon " style="margin-left: 45px;" >
+      </div>
+    <div class="city">
+        <a href="https://www.sightinnovation.com" target="_blank"> <span style="color:purple; font: bolder; font-size: 40px;margin-left: 45px; "> EduPlus<span style="font-size:15px ;">(Beta)</span></span> </a>
+    </div>
+  </div>
+
+
+  <div class="formbox relative">
+    <div class="box">
+    <form action="https://www.w3schools.com/action_page.php">
+
+      <p style="font-family: 'Times New Roman', Times, serif; font-size: 30px; color: blueviolet;" > <b>Sign In</b></p>
+    
+      <label for="fname" style="font-family: 'Times New Roman', Times, serif; font-size: 18px;">Sign In As* </label>
+      <br>
+      <select id="User" name="user">
+        <option value="select">Select</option>
+        <option value="admin/owner">Admin/Owner</option>
+        <option value="staff">Staff</option>
+        <option value="student"> Student</option>
+        <option value="eduplus lab user"> EduPlus Lab User</option>
+      </select>
+      <br> <br>
+
+      <label for="uname" style="font-family: 'Times New Roman', Times, serif;font-size: 18px;">User Id*</label>
+      <br>
+      <input type="text" id="lname" name="lastname" placeholder="Enter Your UserId/SchoolNo./Email">
+      <br> <br>
+
+      <label for="lname" style="font-family: 'Times New Roman', Times, serif; font-size: 18px;">Password</label>
+      <br>
+      <input type="password" name="psw" placeholder="Enter Your Password"> 
+        
+        
+      
+      
+      <input type="submit" value="Sign In" style="font-size: 25px; font-family: 'Times New Roman', Times, serif; margin-left: 170px; font: bolder;">
+    </form>
+
+    <p style="color: blueviolet; font-family: 'Times New Roman', Times, serif; font-size: 18px;">Forgot Password?</p>
+    
+    <p style="font-family: 'Times New Roman', Times, serif; font-size: 18px;">Click <a href="https://www.admin.com" target="_blank"> Here</a> to Sign Up as Admin/Owner</p>
+
+    <p style="font-family: 'Times New Roman', Times, serif; font-size: 18px;"> Click <a href="https://www.admin.com" target="_blank"> Here</a> to Sign Up as EduPlus Lab User</p>
+    </div>
+  </div>
+
+        
+        
+    </body>
+</html>
